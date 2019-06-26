@@ -7,6 +7,62 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 30px;
   min-height: 100%;
+  background-color: teal;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: lightsteelblue;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  background-color: teal;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+#navbar ul li {
+  padding: 0 20px;
+}
+
+main {
+  background-color: lightsteelblue;
+  display: flex;
+  flex-direction: row;
+}
+
+figure {
+  border: 1px solid teal;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+figcaption {
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #2D4660;
+}
+
+footer ul {
+  background-color: gray;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: no-wrap;
+  margin-top: 0px;
+}
+
+.kitteh-footer ul li {
+  padding: 20px;
 }
